@@ -1,0 +1,24 @@
+import { FaAward, FaBrain, FaHome, FaPaperPlane, FaProjectDiagram } from 'react-icons/fa';
+import WrapperBody from './wrapper';
+import { SecondaryButton } from '../components/button';
+import { DiReact } from 'react-icons/di';
+export default function Header() {
+  return (
+    <div className="sticky top-0 bg-zinc-950/10 backdrop-blur-xl w-full h-16 border-b border-dashed border-zinc-800">
+      <WrapperBody>
+        <div className="h-full flex justify-between items-center gap-12">
+          <a href="/" className="flex gap-1 items-center font-['Geist'] text-white font-semibold">
+            <DiReact size={24} /> Vite.Dev
+          </a>
+          <div className='flex items-center justify-start gap-1'>
+            <SecondaryButton href="#bio" label="Home" icon={<FaHome size={16} />} />
+            <SecondaryButton href="#projects" label="Projects" icon={<FaProjectDiagram size={16} />} />
+            <SecondaryButton href="#skills" label="Skills" icon={<FaBrain size={16} />} />
+            <SecondaryButton href="#experience" label="Experience" icon={<FaAward size={16} />} />
+            <SecondaryButton href="#contacts" label="Contacts" icon={<FaPaperPlane size={16} />} />
+          </div>
+        </div>
+      </WrapperBody>
+    </div>
+  )
+}
