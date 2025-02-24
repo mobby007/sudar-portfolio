@@ -9,7 +9,7 @@ export default function Experience() {
       <WrapperBody>
         <div className="flex flex-col gap-4">
           <p className="flex gap-2 items-center font-['Geist'] font-bold text-2xl"><FaAward />Experience</p>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {profile.experience.map((experience) => (
               <div
                 key={experience.from}

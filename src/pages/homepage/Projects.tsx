@@ -8,7 +8,7 @@ export default function Projects() {
       <WrapperBody>
         <div className="flex flex-col gap-4">
           <p className="flex gap-2 items-center font-['Geist'] font-bold text-2xl"><FaProjectDiagram />Projects</p>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-4">
             {profile.projects.map((project) => (
               <div
                 key={project.name}
