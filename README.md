@@ -1,3 +1,5 @@
+![thumbnail](https://awesomescreenshot.s3.amazonaws.com/image/6171274/53100357-9a5237efdc5e8fc11fee8bcff878d9d4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20250224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250224T140733Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=5985566598d0627063790b385ac7667effeccc5eb90158c077024962d06597c9)
+
 # React Vite Portfolio Template
 
 A lightweight, modern, and customizable portfolio template built with [React](https://reactjs.org/) and [Vite](https://vitejs.dev/). This template is designed to help developers quickly showcase their projects, skills, and personal information in a clean and responsive layout. It uses `pnpm` for fast and efficient package management and includes a `portfolio.json` file to easily manage your portfolio data.
