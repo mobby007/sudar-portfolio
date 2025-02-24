@@ -1,50 +1,59 @@
-# React + TypeScript + Vite
+# React Vite Portfolio Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, modern, and customizable portfolio template built with [React](https://reactjs.org/) and [Vite](https://vitejs.dev/). This template is designed to help developers quickly showcase their projects, skills, and personal information in a clean and responsive layout. It uses `pnpm` for fast and efficient package management and includes a `portfolio.json` file to easily manage your portfolio data.
 
-Currently, two official plugins are available:
+## Features
+- Built with React and Vite for fast development and optimal performance
+- Fully responsive design
+- Centralized portfolio data management via `portfolio.json`
+- Easy to customize and extend
+- Uses `pnpm` for lightweight and efficient dependency management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
+Before you begin, ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [pnpm](https://pnpm.io/) (install globally with `npm install -g pnpm`)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/react-vite-portfolio-template.git
+   cd react-vite-portfolio-template
+   ```
+2. Install dependencies using `pnpm`:
+   ```bash
+   pnpm install
+   ```
+3. Customize the `portfolio.json` file located in the `/src/configs`:
+   ```json
+   {
+    "name": "Your Name",
+    "title": "Your Job Title",
+    "bio": "A short bio about yourself",
+    "contacts": {
+      "github": "https://github.com/your-username",
+      "twitter": "https://twitter.com/your-username"
     },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+    "meetingLink": "Calendly link",
+    "projects": [
+        {
+        "name": "Project Name",
+        "bio": "A short bio about the project",
+        "logo": "Project Logo",
+        "description": "The detailed descripion about the project",
+        "skills": ["Used skills in an array"]
+      }
+    ],
+    "skills": ["React", "Vite", "JavaScript", "CSS"]
+   }
+   ```
+4. Build
+   ```bash
+   pnpm build
+   ```
+5. Run
+   ```bash
+   pnpm dev
+   ```

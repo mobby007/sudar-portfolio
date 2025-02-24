@@ -1,12 +1,12 @@
 {
-  "name": "John Doe",
+  "name": "Your Name",
   "bio": "I am a passionate full stack developer with over 8 years of experience building dynamic, user-focused web applications. I’m proficient in both front-end and back-end technologies, excelling at crafting seamless experiences using tools like React, Node.js, and PostgreSQL. With a keen eye for design and a knack for solving complex problems, I’ve contributed to projects ranging from sleek e-commerce platforms to robust enterprise solutions. When I’m not coding, I enjoy mentoring junior developers, exploring the latest tech trends, and sipping coffee while debugging late into the night.",
   "contacts": {
     "email": "for@example.com",
-    "github": "https://github.com/react-portfolio",
-    "discord": "discord",
-    "twitter": "https://x.com/react-portfolio",
-    "telegram": "https://t.me/react-portfolio"
+    "github": "https://github.com/your-username",
+    "discord": "your-username",
+    "twitter": "https://x.com/your-username",
+    "telegram": "https://t.me/your-username"
   },
   "meetingLink": "https://meet.google.com",
   "skills": [
