@@ -4,6 +4,7 @@ import cn from "classnames";
 interface ButtonProps {
   label: string;
   href?: string;
+  onClick?: () => void;
   icon?: ReactNode;
 }
 
@@ -32,14 +33,17 @@ export function PrimaryButton({ label, icon, href }: ButtonProps) {
   )
 }
 
-export function SecondaryButton({ label, icon, href }: ButtonProps) {
+export function SecondaryButton({ label, icon, href, onClick }: ButtonProps) {
   return href ? (
     <a href={href} className="flex justify-center items-center gap-2 text-sm px-3 py-2 cursor-pointer text-zinc-50 hover:text-zinc-300">
       {icon}
       {label}
     </a>
   ) : (
-    <button className="flex justify-center items-center gap-2 text-sm px-3 py-2 cursor-pointer text-zinc-50 hover:text-zinc-300">
+    <button
+      onClick={onClick}
+      className="flex justify-center items-center gap-2 text-sm px-3 py-2 cursor-pointer text-zinc-50 hover:text-zinc-300"
+    >
       {icon}
       {label}
     </button>
