@@ -38,6 +38,17 @@ Before you begin, ensure you have the following installed:
       "github": "https://github.com/your-username",
       "twitter": "https://twitter.com/your-username"
     },
+   "education": {
+      "logo": "University Logo",
+      "degree": "Your Degree",
+      "university": "Your University",
+      "location": "Location",
+      "graduation": "2025/01/01 00:00:00",
+      "courseWork": [
+         "Algorithms"
+      ],
+      "project": "Your senior project"
+   },
     "meetingLink": "Calendly link",
     "projects": [
         {
