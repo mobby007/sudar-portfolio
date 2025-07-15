@@ -6,7 +6,6 @@
     "github": "https://github.com/mobby007",
     "linkedin": "https://www.linkedin.com/in/sudar-mohan-121aa0284/",
     "email": "sudarmohan007@gmail.com"
-  
   },
   "education": {
     "degree": "B.Tech",
@@ -26,6 +25,20 @@
       "name": "Tomato Leaf Disease Detection",
       "description": "ML app using CNN, Vision Transformer and SGD/Adam optimizers to detect tomato leaf diseases.",
       "skills": ["CNN", "ViT", "SGD", "Adam"]
+    }
+  ],
+  "experience": [
+    {
+      "from": "2023-01-01",
+      "to": "present",
+      "logo": "/images/internshala.png",
+      "company": "Internshala",
+      "role": "Java Intern",
+      "descriptions": [
+        "Worked on Java backend projects",
+        "Learned Spring Boot and Git workflow",
+        "Collaborated in agile environment"
+      ]
     }
   ]
 }
