@@ -52,7 +52,8 @@ export default function Experience() {
                     <p className="text-zinc-50 font-semibold">{experience.role}</p>
                     <p className="text-sm text-zinc-500">
                       {dayjs(experience.from).format("MMM YYYY")} ~{" "}
-                      {String(experience.to).toLowerCase() === "present"
+                      {typeof experience.to === "string" &&
+                      experience.to.toLowerCase() === "present"
                         ? "Present"
                         : dayjs(experience.to).format("MMM YYYY")}
                     </p>
