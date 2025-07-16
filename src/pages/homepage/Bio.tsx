@@ -12,9 +12,9 @@ export default function Bio() {
         </div>
         <div className="flex mt-4 gap-4">
           <PrimaryButton href="#contacts" label="Get contacts" />
-          <SecondaryButton href={profile.meetingLink} label="Schedule a meeting" />
+          <SecondaryButton href="/resume.pdf" label="Download Resume" />
         </div>
       </WrapperBody>
     </div>
   );
-}
+} 

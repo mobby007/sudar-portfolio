@@ -1,10 +1,12 @@
-import Homepage from "./pages/homepage"
 
+import Homepage from "./pages/homepage";
 
 function App() {
   return (
-    <Homepage />
-  )
+    <div className="bg-black text-white min-h-screen">
+      <Homepage />
+    </div>
+  );
 }
 
-export default App
+export default App;
